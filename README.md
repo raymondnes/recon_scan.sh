@@ -57,7 +57,7 @@ pip install theHarvester
    Create a file containing one domain per line. By default, the script expects the file to be located at:
 
    ```
-   /home/stingray/Documents/Assets/Domains/domains.txt
+   /home/<yourusername>/Documents/Assets/Domains/domains.txt
    ```
 
    If your domains file is elsewhere, update the `domains_file` variable at the top of the script.
@@ -80,7 +80,7 @@ Simply run the script from your terminal:
 
 The script will:
 - Iterate over each domain in your domains file.
-- Create a new folder for each domain under the results directory (`/home/stingray/Documents/Assets/Scan/Results` by default).
+- Create a new folder for each domain under the results directory (`/home/<yourusername>/Documents/Assets/Scan/Results` by default).
 - Save the outputs of the following commands:
   - `whois` results in `whois.txt`
   - `nslookup` results in `nslookup.txt`
